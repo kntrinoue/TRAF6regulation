@@ -83,7 +83,7 @@ This mathematical model reproduces the degree of CARMA1-Bcl10 interaction in B c
 \end{align}
 ```
 
-The parameter values  are in the file ([getParam.m](https://github.com/kntrinoue/TRAF6regulation/blob/main/CBmodel/getParam.m)). The signal and Tr6I are used step function ([diffeq.m](https://github.com/kntrinoue/TRAF6regulation/blob/main/CBmodel/diffeq.m)).
+The parameter values  are in the file ([getParam.m](https://github.com/kntrinoue/TRAF6regulation/blob/main/CBmodel/getParam.m)). The signal and Tr6I are used step function ([diffeq.m](https://github.com/kntrinoue/TRAF6regulation/blob/main/CBmodel/diffeq.m)) as shown in Fig.4 in the paper.
 
 
 The simulation results:

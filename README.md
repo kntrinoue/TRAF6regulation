@@ -51,6 +51,10 @@ s_{input}  \qquad  (if \quad  t_{raise}+t_{delay} < t \leq t_{pulse}+t_{raise}+t
 
 The parameter values in TAK1 and IKK reactions are in the file ([getParam.m](https://github.com/kntrinoue/TRAF6regulation/blob/main/TAK1IKKmodel/getParam.m)). The parameter values in signal are in ([getSimulation.m](https://github.com/kntrinoue/TRAF6regulation/blob/main/TAK1IKKmodel/getSimulation.m)).
 
+The simulation results:
+<img src="https://github.com/kntrinoue/TRAF6regulation/blob/main/TAK1IKKmodel/TAK1.png" width="300">
+<img src="https://github.com/kntrinoue/TRAF6regulation/blob/main/TAK1IKKmodel/IKK.png" width="300">
+
 
 ## CBmodel
 This mathematical model reproduces the degree of CARMA1-Bcl10 interaction in B cells. C is CARMA1. B is Bcl10. Tr6I is a TRAF6-mediated inhibitor to CARMA1-Bcl10 interaction. The equation of the model is follows:
@@ -73,3 +77,10 @@ This mathematical model reproduces the degree of CARMA1-Bcl10 interaction in B c
 ```
 
 The parameter values  are in the file ([getParam.m](https://github.com/kntrinoue/TRAF6regulation/blob/main/CBmodel/getParam.m)). The signal and Tr6I are used step function ([diffeq.m](https://github.com/kntrinoue/TRAF6regulation/blob/main/CBmodel/diffeq.m)).
+
+
+The simulation results:
+<img src="https://github.com/kntrinoue/TRAF6regulation/blob/main/CBmodel/signalindependentCB.png" width="300">
+<img src="https://github.com/kntrinoue/TRAF6regulation/blob/main/CBmodel/signaldependentCB.png" width="300">
+
+Left: Signal idependent model, Right: Signal dependent model.

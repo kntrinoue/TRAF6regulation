@@ -1,6 +1,9 @@
 # TRAF6regulation
 
-Paper title, authors
+## Paper information
+Regulation mechanisms of CBM-complex assembly inferred from the analysis of TRAF6-deficient cells, 
+Inoue, Kentaro ; Yasuda, Tomoharu ; Baba, Yoshihiro ; Yamamoto, Tadashi; Kurosaki, Tomohiro ; Shinohara, Hisaaki,
+submitted
 
 ## TAK1IKKmodel
 This mathematical model reproduces TAK1-IKK reactions in B cells. The model is based on and modified the previous model ([ref](https://github.com/kntrinoue/Shinohara2014Science)). The model is added MALT1 and TRAF6 regulations to TAK1 and IKK activation (red characters). The equation of the model is as follows:
